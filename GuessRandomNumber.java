@@ -18,8 +18,9 @@ public class GuessRandomNumber {
             System.out.println(result);
             if(guess==randomNumber)
                 break;
+            chance--;
         }
-        chance--;
+        
         if(chance==0)
             System.out.println("Sorry, you ranout the chance Try Again! ");
     }
